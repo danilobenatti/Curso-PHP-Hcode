@@ -1,0 +1,7 @@
+<?php
+$a = NULL;
+$b = NULL;
+$c = 10;
+$d = 5;
+echo $a ?? $b ?? $c ?? $d;
+?>
